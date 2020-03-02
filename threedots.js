@@ -1,0 +1,13 @@
+const ages = [24, 34, 13, 12, 36];
+const ages2 = [15, 14, 13];
+const ages3 = [12, 22, 32, 42];
+const allAges = ages.concat(ages2).concat([8]).concat(ages3);
+const allAges2 = [...ages, ...ages2, 9, ...ages3];
+// console.log(allAges2);
+const bissiness = 650;
+const minster = 450;
+const shochib = 440;
+// const maximum = Math.max(bissiness, minster, shochib);
+const takaPaisa = [500, 200, 230];
+const maximum = Math.max(...takaPaisa );
+console.log(maximum);
